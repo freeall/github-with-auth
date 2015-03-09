@@ -25,6 +25,8 @@ module.exports = function(scopes, callback) {
 			token: auth.token
 		});
 
-		callback(null, github);
+		process.nextTick(function() {
+			callback(null, github);
+		});
 	});
 };
