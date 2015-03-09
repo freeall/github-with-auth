@@ -1,6 +1,6 @@
 {
   "name": "github-with-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get started using the github in no time! Instantiates github module by using ghauth.",
   "dependencies": {
     "ghauth": "^2.0.0",
